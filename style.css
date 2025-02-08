@@ -55,7 +55,7 @@ ul#menu-options {
 ul#menu-options a {
     background-color: var(--cor0);
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 1.2em;
     padding: 10px 25px;
@@ -65,7 +65,7 @@ ul#menu-options a {
 ul#menu-options a:hover {
     background-color: #ffffff;
     transition: background-color 0.7s ease,  border 0.7s ease, color 0.7s ease;
-    border: 1px solid var(--cor4);
+    border: 2px solid var(--cor4);
     color: black;
 }
 
@@ -166,13 +166,15 @@ hr {
 
 
 #img-series img {
-    border: 1px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
 #img-series img:hover {
-    border: 1px solid rgb(0, 153, 255);
+    border: 2px solid var(--cor4-hover);
     transition: border 0.4s ease;
+    position: relative;
+    bottom: 20px;
 }
 
 .link-image img {
@@ -183,11 +185,17 @@ hr {
     text-align: center;
     color: white;
     background-color: rgb(37, 37, 37);
+    position: relative;
 }
 
 .section3 img {
     padding: 30px 0px;
     width: clamp(50px, 5%, 100px);
+}
+
+.section3 img:hover {
+    position: relative;
+    bottom: 5px;
 }
 
 .section3 ul {
@@ -197,7 +205,7 @@ hr {
 
 .section3 li {
     padding: 10px;
-    font-size: clamp(0.5em, 1vw, 2em);
+    font-size: clamp(0.7em, 0.8vw, 1.5em);
 }
 
 .section3 a {
