@@ -31,4 +31,8 @@
     .detalhes2 ul {
         padding: 0px 0px 10px 0px;
     }
+
+    .detalhes2 {
+        padding: 0px 0px 10px 3px;
+    }
 }
