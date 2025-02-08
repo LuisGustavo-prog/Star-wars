@@ -6,8 +6,16 @@
     }
 
     .detalhes {
-        padding-top: 400px;
+        padding: 400px 0px 0px 0px;
         text-align: center;
+    }
+
+    .detalhes img {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .detalhes2 {
+        padding: 0px 0px 0px 5px; 
     }
 
     .lado-lado {
@@ -32,7 +40,4 @@
         padding: 0px 0px 10px 0px;
     }
 
-    .detalhes2 {
-        padding: 0px 0px 10px 3px;
-    }
 }
