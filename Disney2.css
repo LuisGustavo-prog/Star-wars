@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 704px) {
+    .sumiço {
+        display: none;
+    }
+
+    .detalhes {
+        padding-top: 400px;
+        text-align: center;
+    }
+
+    .lado-lado {
+        display: block;
+        text-align: center;
+    }
+
+    #img-series {
+        columns: 2;
+    }
+
+    .lista-de-termos ul{
+        display: block;
+        columns: 1;
+    }
+
+    #img-series li {
+        padding: 0px;
+    }
+}
